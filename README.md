@@ -116,6 +116,10 @@ You can run the bot in multiple modes:
     - Type `npm run start:pm2`.
     - Similar to Manager Mode but uses [PM2](https://pm2.keymetrics.io/) to manage processes.
 
+## Building
+
+Run `npm run build` to move everything from the `src` directory to the `dist` directory. Make sure you are not requiring files outside of your `src` directory when coding.
+
 ## Bots Using This Template
 
 A list of Discord bots using this template.
